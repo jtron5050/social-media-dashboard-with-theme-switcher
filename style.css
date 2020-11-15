@@ -32,6 +32,7 @@ body {
     background-color: hsl(227, 47%, 96%);
     color: hsl(228, 12%, 44%);
     overflow: hidden;
+    text-align: center;
 }
 
 .card .inner {
@@ -49,4 +50,18 @@ body {
 }
 .card.you-tube .inner {
     border-color: var(--you-tube);
+}
+
+.card header {
+    display: flex;
+    justify-content: center;
+    justify-items: start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1.5em;
+}
+
+.card header img {
+    margin-right: 10px;
 }
